@@ -19,8 +19,7 @@ def first_challenge
       if person == "Jon Snow"
       data.each do |attribute, value|
         if attribute == "favorite_icecream_flavors"
-          value.each do
-            value.delete_if("strawberry")
+          value.delete_if("strawberry")
           end
         end
       end
